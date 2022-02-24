@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="top.ysccx.myfirstapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:5:5-32:19
+12        android:allowBackup="true"
+12-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@drawable/icon"
+14-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:7:9-38
+15        android:label="@string/app_name"
+15-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@drawable/icon"
+16-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:11:9-43
+17        android:supportsRtl="true"
+17-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:12:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:13:9-40
+20        <activity android:name="cdu.xzf.firstAndroid.MainActivity" >
+20-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:14:9-21:20
+20-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:14:19-67
+21            <intent-filter>
+21-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:15:13-20:29
+22                <action android:name="android.intent.action.VIEW" />
+22-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:16:17-69
+22-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:16:25-66
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:17:17-69
+23-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:17:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:19:17-77
+25-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:19:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="cdu.xzf.firstAndroid.RankingActivity" />
+28-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:22:9-53
+28-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:22:19-50
+29
+30        <receiver
+30-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:24:9-31:20
+31            android:name="cdu.xzf.firstAndroid.MyReceiver"
+31-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:25:13-39
+32            android:enabled="true"
+32-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:26:13-35
+33            android:exported="true" >
+33-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:27:13-36
+34            <intent-filter>
+34-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:28:13-30:29
+35                <action android:name="top.ysccx.broadcast" />
+35-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:29:17-61
+35-->C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\AndroidManifest.xml:29:25-59
+36            </intent-filter>
+37        </receiver>
+38
+39        <provider
+39-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e5f6b8936b2dbe779f8cb6c326836a6b\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+40            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e5f6b8936b2dbe779f8cb6c326836a6b\extensions-1.1.1\AndroidManifest.xml:24:13-83
+41            android:authorities="top.ysccx.myfirstapp.lifecycle-trojan"
+41-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e5f6b8936b2dbe779f8cb6c326836a6b\extensions-1.1.1\AndroidManifest.xml:25:13-68
+42            android:exported="false"
+42-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e5f6b8936b2dbe779f8cb6c326836a6b\extensions-1.1.1\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e5f6b8936b2dbe779f8cb6c326836a6b\extensions-1.1.1\AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>

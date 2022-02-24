@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\HP\Desktop\徐政发《Andorid移动开发技术》课程综合项目\项目源代码\lianliankan-main\app\src\debug\shaders"/></dataSet></merger>
